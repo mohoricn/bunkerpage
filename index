@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prazna stran</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: sans-serif;
+    }
+
+    .circle-link {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 30px; /* Tripled from 10px */
+      height: 30px; /* Tripled from 10px */
+      background-color: white;
+      border-radius: 50%;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://www.studiobunker.si" class="circle-link" title="Studio Bunker"></a>
+  <div>Ta stran je namenoma prazna.</div>
+</body>
+</html>
+
